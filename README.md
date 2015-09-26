@@ -1,5 +1,7 @@
 # Stylecow plugins
 
+[![Build Status](https://travis-ci.org/stylecow/stylecow-plugins.svg)](https://travis-ci.org/stylecow/stylecow-plugins)
+
 All stylecow plugins ready to use. [More info](http://stylecow.github.io/#plugins)
 
 ## Simple usage:

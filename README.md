@@ -1,0 +1,21 @@
+# Stylecow plugins
+
+All stylecow plugins ready to use. [More info](http://stylecow.github.io/#plugins)
+
+## Simple usage:
+
+```js
+var stylecow = require('stylecow');
+var plugins  = require('stylecow-plugins');
+
+//get all available plugins:
+console.log(plugins.getAll());
+
+//Use all available plugins:
+var tasks = new stylecow.Tasks();
+tasks.use(plugins());
+
+//Use only some plugins:
+var tasks = new stylecow.Tasks();
+tasks.use(plugins(['prefixes', 'import', 'nested-rules']));
+```

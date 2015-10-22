@@ -1,7 +1,5 @@
 "use strict";
 
-var fs = require('fs');
-
 var Plugins = function (plugins) {
     if (arguments.length === 0) {
         plugins = Plugins.getAll();
@@ -18,9 +16,7 @@ var allPlugins;
 
 Plugins.getAll = function () {
     if (!allPlugins) {
-        allPlugins = fs.readdirSync(__dirname + '/node_modules')
-            .filter(value => value.slice(0, 16) === 'stylecow-plugin-')
-            .map(value => value.slice(16));
+        allPlugins = Object.keys(require('./package.json').dependencies).map(value => value.slice(16));
     }
 
     return allPlugins;

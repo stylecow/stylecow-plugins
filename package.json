@@ -34,6 +34,7 @@
     "stylecow-plugin-flex": "^6.0.0",
     "stylecow-plugin-import": "^5.0.0",
     "stylecow-plugin-matches": "^5.0.0",
+    "stylecow-plugin-media-queries": "^1.0.0",
     "stylecow-plugin-msfilter-background-alpha": "^5.0.0",
     "stylecow-plugin-msfilter-linear-gradient": "^5.0.0",
     "stylecow-plugin-msfilter-transform": "^5.0.0",

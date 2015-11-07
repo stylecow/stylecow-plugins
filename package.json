@@ -7,7 +7,7 @@
     "css",
     "process"
   ],
-  "version": "1.1.1",
+  "version": "1.2.0",
   "engines": {
     "node": ">=4.0"
   },

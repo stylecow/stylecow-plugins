@@ -22,6 +22,7 @@ describe('Plugins load', function () {
                 "flex",
                 "import",
                 "matches",
+                "media-queries",
                 "msfilter-background-alpha",
                 "msfilter-linear-gradient",
                 "msfilter-transform",

@@ -20,6 +20,7 @@ describe('Plugins load', function () {
                 "extend",
                 "fixes",
                 "flex",
+                "font-variant",
                 "import",
                 "matches",
                 "media-queries",

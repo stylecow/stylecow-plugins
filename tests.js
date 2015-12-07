@@ -13,6 +13,7 @@ describe('Plugins load', function () {
     it('Must return all plugins', function() {
         assert.deepEqual([
                 "base64",
+                "bower-loader",
                 "calc",
                 "color",
                 "custom-media",

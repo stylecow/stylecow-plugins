@@ -7,7 +7,7 @@
     "css",
     "process"
   ],
-  "version": "1.4.0",
+  "version": "1.4.1",
   "engines": {
     "node": ">=4.0"
   },
@@ -25,14 +25,14 @@
   "license": "MIT",
   "dependencies": {
     "stylecow-plugin-base64": "^1.0.0",
-    "stylecow-plugin-bower-loader": "^1.0.2",
+    "stylecow-plugin-bower-loader": "^1.0.3",
     "stylecow-plugin-calc": "^2.0.0",
     "stylecow-plugin-color": "^5.0.0",
     "stylecow-plugin-custom-media": "^2.0.0",
     "stylecow-plugin-custom-selector": "^2.0.0",
     "stylecow-plugin-extend": "^2.0.0",
-    "stylecow-plugin-fixes": "^5.0.0",
-    "stylecow-plugin-flex": "^6.0.0",
+    "stylecow-plugin-fixes": "^5.1.0",
+    "stylecow-plugin-flex": "^6.0.1",
     "stylecow-plugin-font-variant": "^1.0.0",
     "stylecow-plugin-import": "^5.0.0",
     "stylecow-plugin-matches": "^5.0.0",
@@ -47,7 +47,7 @@
     "stylecow-plugin-webkit-gradient": "^2.0.0"
   },
   "devDependencies": {
-    "bower": "^1.6.9",
+    "bower": "^1.7.1",
     "mocha": "^2.3.4",
     "stylecow-core": "^2.1.0"
   }

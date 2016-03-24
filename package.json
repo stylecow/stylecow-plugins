@@ -24,7 +24,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "stylecow-plugin-base64": "^1.0.0",
+    "stylecow-plugin-base64": "^1.0.1",
     "stylecow-plugin-bower-loader": "^1.0.3",
     "stylecow-plugin-calc": "^2.0.0",
     "stylecow-plugin-color": "^5.0.0",
@@ -41,14 +41,17 @@
     "stylecow-plugin-msfilter-linear-gradient": "^5.0.0",
     "stylecow-plugin-msfilter-transform": "^5.0.0",
     "stylecow-plugin-nested-rules": "^5.0.1",
-    "stylecow-plugin-prefixes": "^6.0.1",
+    "stylecow-plugin-prefixes": "^6.0.3",
     "stylecow-plugin-rem": "^5.0.0",
-    "stylecow-plugin-variables": "^5.1.0",
+    "stylecow-plugin-variables": "^5.1.1",
     "stylecow-plugin-webkit-gradient": "^2.0.0"
   },
   "devDependencies": {
-    "bower": "^1.7.1",
+    "bower": "^1.7.7",
     "mocha": "^2.3.4",
+    "stylecow-core": "^2.1.0"
+  },
+  "peerDependencies": {
     "stylecow-core": "^2.1.0"
   }
 }

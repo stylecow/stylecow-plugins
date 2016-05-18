@@ -4,6 +4,9 @@ let plugins = require('./index');
 let assert = require('assert');
 
 plugins.getAll().forEach(function (plugin) {
+    if (plugin.endsWith('-loader')) {
+        return;
+    }
     describe(plugin, function () {
         require('stylecow-plugin-' + plugin + '/tests/cases');
     });
@@ -29,6 +32,7 @@ describe('Plugins load', function () {
                 "msfilter-linear-gradient",
                 "msfilter-transform",
                 "nested-rules",
+                "npm-loader",
                 "prefixes",
                 "rem",
                 "variables",

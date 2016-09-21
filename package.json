@@ -42,13 +42,13 @@
     "stylecow-plugin-msfilter-transform": "^5.0.0",
     "stylecow-plugin-nested-rules": "^5.0.1",
     "stylecow-plugin-npm-loader": "^1.0.0",
-    "stylecow-plugin-prefixes": "^6.0.3",
+    "stylecow-plugin-prefixes": "^6.0.4",
     "stylecow-plugin-rem": "^5.0.0",
     "stylecow-plugin-variables": "^5.1.1",
     "stylecow-plugin-webkit-gradient": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
+    "mocha": "^3.0.2",
     "stylecow-core": "^2.3.0"
   },
   "peerDependencies": {
